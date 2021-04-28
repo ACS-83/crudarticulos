@@ -1,0 +1,20 @@
+{
+  "name": "alberto/phpcrud",
+  "description": "CRUD con PHP",
+  "type": "project",
+  "license": "Free",
+  "authors": [
+      {
+          "name": "ACS-83",
+          "email": "65224760+ACS-83@users.noreply.github.com"
+      }
+  ],
+  "config" : {
+      "optimize-autoloader": true
+  },
+  "autoload": {
+      "psr-4": {
+          "Clases\\": "clases"
+      }
+  }
+}
